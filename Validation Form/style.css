@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(47, 126, 201), pink);
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    width: 450px;
+    box-shadow: 0px 3px 15px white;
+    padding: 30px;
+    font-family: sans-serif;
+    border-radius: 8px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.Box {
+    margin-block: 15px;
+}
+
+.Box label {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.Box input {
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.Box span {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    padding: 15px 25px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: rgb(95, 158, 218);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    margin-top: 10px;
+}
+
+.btn button:hover {
+    background-color: rgb(121, 167, 209);
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.login a {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login a:hover {
+    color: rgb(49, 49, 49);
+}
